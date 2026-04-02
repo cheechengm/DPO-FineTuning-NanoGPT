@@ -1,8 +1,7 @@
 # Project Title: Direct Preference Optimization (DPO) for Mathematical Reasoning in NanoGPT
 
 Overview
-Developed and implemented a reinforcement learning pipeline using Direct Preference Optimization (DPO) to align a character-level NanoGPT model for solving arithmetic and algebraic problems. By leveraging a dataset of 100,000 positive/negative response pairs, the model was trained to move beyond simple next-token prediction toward providing structured, reasoned mathematical answers.
-
+This project focuses on fine-tuning a pretrained NanoGPT model to solve simple algebra and arithmetic problems using reinforcement learning through Direct Preference Optimization (DPO). A dataset of 100,000 paired responses consisting of negative and positive response is used to train preference alignment. The DPO approach enables the model to learn to generate accurate mathematical answers such as addition, subtraction, multiplication, division, and basic algebra with a short reasoning given .Such as 5+7=? The answer is 12 because 5+7 equals 12. x/4=3,x=? The answer is 12 because 3*4 equals 12.
 Key Technical Contributions
 
 **Model Alignment**: Fine-tuned a pretrained NanoGPT model using DPO to prioritize high-quality, reasoned responses over "I don't know" or incorrect negative samples.
