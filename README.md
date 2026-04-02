@@ -5,10 +5,10 @@ Developed and implemented a reinforcement learning pipeline using Direct Prefere
 
 Key Technical Contributions
 
-Model Alignment: Fine-tuned a pretrained NanoGPT model using DPO to prioritize high-quality, reasoned responses over "I don't know" or incorrect negative samples.
+**Model Alignment**: Fine-tuned a pretrained NanoGPT model using DPO to prioritize high-quality, reasoned responses over "I don't know" or incorrect negative samples.
 
-Custom Training Pipeline: Implemented a stable DPO loss function utilizing a frozen reference model to calculate log-probability deltas, ensuring controlled policy updates.
+**Custom Training Pipeline:** Implemented a stable DPO loss function utilizing a frozen reference model to calculate log-probability deltas, ensuring controlled policy updates.
 
-Optimized Inference: Achieved an 80% accuracy rate across addition, multiplication, and division by implementing near-greedy decoding (Temperature = 0.2, Top-K = 2) to minimize stochastic errors in mathematical outputs.
+**Optimized Inference:** Achieved an 80% accuracy rate across addition, multiplication, and division by implementing near-greedy decoding (Temperature = 0.2, Top-K = 2) to minimize stochastic errors in mathematical outputs.
 
-Tech Stack: Python, PyTorch, Transformers, AdamW Optimizer, NVIDIA RTX 3060 GPU acceleration.
+**Tech Stack:** Python, PyTorch, Transformers, AdamW Optimizer, NVIDIA RTX 3060 GPU acceleration.
