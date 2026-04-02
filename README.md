@@ -13,5 +13,5 @@ Key Technical Contributions
 
 **Tech Stack:** Python, PyTorch, Transformers, AdamW Optimizer, NVIDIA RTX 3060 GPU acceleration.
 
-Below is an image of our Finetuned NanoGPT that is optimised to do math and can give simple reasoning of how it derived the calculation. It achieved an accuracy of 80%, with larger database and more training set it can definitely be optimised to achieve a higher accuracy.
+Below is an image of our Finetuned NanoGPT that is optimised to do math and can give simple reasoning of how it derived the calculation. It achieved an accuracy of 80%, with larger database and more optimised training set it can definitely be optimised to achieve a higher accuracy. For example our finetuned nanogpt is noted to be weak in division, with more training it definitely can be finetuned to be better at division
 <img width="919" height="1219" alt="image" src="https://github.com/user-attachments/assets/b64885c6-38a7-4157-8b4f-926bc95731e9" />
