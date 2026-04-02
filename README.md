@@ -12,3 +12,6 @@ Key Technical Contributions
 **Optimized Inference:** Achieved an 80% accuracy rate across addition, multiplication, and division by implementing near-greedy decoding (Temperature = 0.2, Top-K = 2) to minimize stochastic errors in mathematical outputs.
 
 **Tech Stack:** Python, PyTorch, Transformers, AdamW Optimizer, NVIDIA RTX 3060 GPU acceleration.
+
+Below is an image of our Finetuned NanoGPT that is optimised to do math and can give simple reasoning of how it derived the calculation. It achieved an accuracy of 80%, with larger database and more training set it can definitely be optimised to achieve a higher accuracy.
+<img width="919" height="1219" alt="image" src="https://github.com/user-attachments/assets/b64885c6-38a7-4157-8b4f-926bc95731e9" />
